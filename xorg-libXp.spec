@@ -1,7 +1,7 @@
 Summary:	X Print Client library
 Name:		xorg-libXp
 Version:	1.0.2
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/lib/libXp-%{version}.tar.bz2
@@ -63,7 +63,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libXp.so
-%{_libdir}/libXp.la
 %{_pkgconfigdir}/xp.pc
 %{_mandir}/man3/Xp*.3x*
 %{_mandir}/man3/libXp.3x*
