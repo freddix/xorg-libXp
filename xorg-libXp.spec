@@ -1,11 +1,11 @@
 Summary:	X Print Client library
 Name:		xorg-libXp
-Version:	1.0.2
-Release:	3
+Version:	1.0.3
+Release:	1
 License:	MIT
 Group:		X11/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/lib/libXp-%{version}.tar.bz2
-# Source0-md5:	bb038577c7f4e42a1b675fa6451bc4aa
+# Source0-md5:	df9e6bf0d988de6694f08693b8002079
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
